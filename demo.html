@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض تجريبي - الروّاد للصيانة</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .demo-section {
+            border: 2px dashed #4949FF;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            background: rgba(73, 73, 255, 0.05);
+        }
+        .demo-title {
+            color: #4949FF;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">🎯 عرض تجريبي</h1>
+            <p class="lead">موقع الروّاد للصيانة - rwadcool</p>
+            <p class="text-muted">جميع المميزات والوظائف في مكان واحد</p>
+        </div>
+
+        <!-- الألوان -->
+        <div class="demo-section">
+            <h3 class="demo-title">🎨 نظام الألوان</h3>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="p-3 text-center text-white" style="background-color: #4949FF; border-radius: 10px;">
+                        <strong>الأساسي</strong><br>
+                        #4949FF
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 text-center text-white" style="background-color: #7879FF; border-radius: 10px;">
+                        <strong>الثانوي</strong><br>
+                        #7879FF
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 text-center text-white" style="background-color: #A3A3FF; border-radius: 10px;">
+                        <strong>المساعد</strong><br>
+                        #A3A3FF
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 text-center" style="background-color: #BFBFFF; border-radius: 10px;">
+                        <strong>الخلفية</strong><br>
+                        #BFBFFF
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الأزرار -->
+        <div class="demo-section">
+            <h3 class="demo-title">🔘 الأزرار</h3>
+            <div class="d-flex gap-3 flex-wrap">
+                <button class="btn btn-primary">زر أساسي</button>
+                <button class="btn btn-outline-primary">زر ثانوي</button>
+                <button class="btn btn-primary btn-lg">زر كبير</button>
+                <button class="btn btn-primary" disabled>زر معطل</button>
+            </div>
+        </div>
+
+        <!-- النماذج -->
+        <div class="demo-section">
+            <h3 class="demo-title">📝 عناصر النماذج</h3>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">حقل نص</label>
+                    <input type="text" class="form-control" placeholder="أدخل النص هنا">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">رقم الهاتف</label>
+                    <input type="tel" class="form-control" placeholder="05xxxxxxxx">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">قائمة منسدلة</label>
+                    <select class="form-select">
+                        <option>اختر الخيار</option>
+                        <option>مكينة قهوة</option>
+                        <option>مكيف هواء</option>
+                        <option>غسالة</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">رفع ملف</label>
+                    <input type="file" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold">منطقة نص</label>
+                    <textarea class="form-control" rows="3" placeholder="اكتب رسالتك هنا..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- الكروت -->
+        <div class="demo-section">
+            <h3 class="demo-title">🃏 الكروت</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-coffee fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">مكائن القهوة</h5>
+                            <p class="card-text">صيانة وإصلاح جميع أنواع مكائن القهوة</p>
+                            <button class="btn btn-primary">اطلب الخدمة</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-snowflake fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">التبريد والتكييف</h5>
+                            <p class="card-text">صيانة المكيفات ومكائن الثلج</p>
+                            <button class="btn btn-primary">اطلب الخدمة</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tshirt fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">الغسالات</h5>
+                            <p class="card-text">إصلاح وصيانة الغسالات وغسالات الصحون</p>
+                            <button class="btn btn-primary">اطلب الخدمة</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الأيقونات -->
+        <div class="demo-section">
+            <h3 class="demo-title">🎯 الأيقونات</h3>
+            <div class="row text-center g-3">
+                <div class="col-2">
+                    <i class="fas fa-coffee fa-2x text-primary"></i>
+                    <small class="d-block mt-1">قهوة</small>
+                </div>
+                <div class="col-2">
+                    <i class="fas fa-cube fa-2x text-primary"></i>
+                    <small class="d-block mt-1">ثلج</small>
+                </div>
+                <div class="col-2">
+                    <i class="fas fa-snowflake fa-2x text-primary"></i>
+                    <small class="d-block mt-1">تكييف</small>
+                </div>
+                <div class="col-2">
+                    <i class="fas fa-tshirt fa-2x text-primary"></i>
+                    <small class="d-block mt-1">غسالة</small>
+                </div>
+                <div class="col-2">
+                    <i class="fas fa-utensils fa-2x text-primary"></i>
+                    <small class="d-block mt-1">صحون</small>
+                </div>
+                <div class="col-2">
+                    <i class="fas fa-fire fa-2x text-primary"></i>
+                    <small class="d-block mt-1">فرن</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- الرسائل -->
+        <div class="demo-section">
+            <h3 class="demo-title">💬 الرسائل</h3>
+            <div class="alert alert-success">
+                <i class="fas fa-check-circle me-2"></i>
+                رسالة نجاح - تم إرسال طلبك بنجاح!
+            </div>
+            <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                رسالة تحذير - يرجى التحقق من البيانات
+            </div>
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle me-2"></i>
+                رسالة معلومات - خدمة سريعة خلال 24 ساعة
+            </div>
+        </div>
+
+        <!-- التجاوب -->
+        <div class="demo-section">
+            <h3 class="demo-title">📱 التصميم المتجاوب</h3>
+            <p>الموقع يعمل بشكل مثالي على:</p>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-desktop fa-2x text-primary mb-2"></i>
+                            <h6>أجهزة الكمبيوتر</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-tablet-alt fa-2x text-primary mb-2"></i>
+                            <h6>الأجهزة اللوحية</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-2x text-primary mb-2"></i>
+                            <h6>الهواتف الذكية</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الروابط السريعة -->
+        <div class="demo-section">
+            <h3 class="demo-title">🔗 الروابط السريعة</h3>
+            <div class="d-flex gap-3 flex-wrap justify-content-center">
+                <a href="index.html" class="btn btn-outline-primary">
+                    <i class="fas fa-home me-2"></i>الرئيسية
+                </a>
+                <a href="about.html" class="btn btn-outline-primary">
+                    <i class="fas fa-info-circle me-2"></i>من نحن
+                </a>
+                <a href="services.html" class="btn btn-outline-primary">
+                    <i class="fas fa-cogs me-2"></i>الخدمات
+                </a>
+                <a href="request.html" class="btn btn-primary">
+                    <i class="fas fa-wrench me-2"></i>طلب خدمة
+                </a>
+                <a href="contact.html" class="btn btn-outline-primary">
+                    <i class="fas fa-envelope me-2"></i>تواصل معنا
+                </a>
+            </div>
+        </div>
+
+        <!-- معلومات التواصل -->
+        <div class="demo-section">
+            <h3 class="demo-title">📞 معلومات التواصل</h3>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                        <i class="fas fa-phone fa-2x text-primary me-3"></i>
+                        <div>
+                            <h6 class="mb-1">رقم الهاتف</h6>
+                            <a href="tel:+966574467922" class="text-decoration-none">+966 57 446 7922</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                        <i class="fab fa-whatsapp fa-2x text-success me-3"></i>
+                        <div>
+                            <h6 class="mb-1">واتساب</h6>
+                            <a href="https://wa.me/966574467922" class="text-decoration-none">إرسال رسالة</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- اختبار الوظائف -->
+        <div class="demo-section">
+            <h3 class="demo-title">🧪 اختبار الوظائف</h3>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <button class="btn btn-primary w-100" onclick="testPhoneValidation()">
+                        اختبار التحقق من رقم الهاتف
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-primary w-100" onclick="testLocalStorage()">
+                        اختبار التخزين المؤقت
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-primary w-100" onclick="testWhatsApp()">
+                        اختبار رسالة واتساب
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-primary w-100" onclick="showSuccessDemo()">
+                        اختبار رسالة النجاح
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- معلومات تقنية -->
+        <div class="demo-section">
+            <h3 class="demo-title">⚙️ معلومات تقنية</h3>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <h6>الملفات المنشأة:</h6>
+                    <ul class="list-unstyled">
+                        <li>✅ index.html - الصفحة الرئيسية</li>
+                        <li>✅ about.html - من نحن</li>
+                        <li>✅ services.html - الخدمات</li>
+                        <li>✅ request.html - طلب خدمة</li>
+                        <li>✅ contact.html - تواصل معنا</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6>الملفات التقنية:</h6>
+                    <ul class="list-unstyled">
+                        <li>✅ styles.css - التصميم</li>
+                        <li>✅ script.js - وظائف JavaScript</li>
+                        <li>✅ process_request.php - معالجة الطلبات</li>
+                        <li>✅ process_contact.php - معالجة التواصل</li>
+                        <li>✅ config.php - الإعدادات</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- المميزات -->
+        <div class="demo-section">
+            <h3 class="demo-title">⭐ المميزات الرئيسية</h3>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-mobile-alt fa-2x text-success me-3"></i>
+                        <div>
+                            <h6 class="mb-1">تصميم متجاوب</h6>
+                            <small class="text-muted">يعمل على جميع الأجهزة</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-language fa-2x text-success me-3"></i>
+                        <div>
+                            <h6 class="mb-1">دعم RTL كامل</h6>
+                            <small class="text-muted">محسن للغة العربية</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fab fa-whatsapp fa-2x text-success me-3"></i>
+                        <div>
+                            <h6 class="mb-1">إشعارات واتساب</h6>
+                            <small class="text-muted">إرسال تلقائي للطلبات</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-save fa-2x text-success me-3"></i>
+                        <div>
+                            <h6 class="mb-1">حفظ البيانات</h6>
+                            <small class="text-muted">تخزين في Excel/CSV</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-primary btn-lg px-5">
+                <i class="fas fa-home me-2"></i>
+                العودة للموقع الرئيسي
+            </a>
+        </div>
+    </div>
+
+    <!-- Success Message for Demo -->
+    <div id="demoSuccessMessage" class="alert alert-success d-none position-fixed top-50 start-50 translate-middle" style="z-index: 1050;">
+        <i class="fas fa-check-circle me-2"></i>
+        اختبار ناجح! جميع الوظائف تعمل بشكل صحيح.
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        // وظائف الاختبار
+        function testPhoneValidation() {
+            const testNumbers = ['0501234567', '5501234567', '123456789', '+966501234567'];
+            let results = 'نتائج اختبار أرقام الهاتف:\n\n';
+            
+            testNumbers.forEach(number => {
+                const isValid = window.RwadCool.validateSaudiPhone(number);
+                results += `${number}: ${isValid ? '✅ صحيح' : '❌ خطأ'}\n`;
+            });
+            
+            alert(results);
+        }
+        
+        function testLocalStorage() {
+            const testData = {
+                name: 'اختبار التخزين',
+                phone: '0501234567',
+                timestamp: new Date().toLocaleString('ar-SA')
+            };
+            
+            const saved = window.RwadCool.saveToLocalStorage('demo_test', testData);
+            const retrieved = window.RwadCool.getFromLocalStorage('demo_test');
+            
+            if (saved && retrieved) {
+                alert('✅ التخزين المؤقت يعمل بنجاح!\n\nالبيانات المحفوظة:\n' + JSON.stringify(retrieved, null, 2));
+            } else {
+                alert('❌ مشكلة في التخزين المؤقت');
+            }
+        }
+        
+        function testWhatsApp() {
+            const message = 'اختبار رسالة واتساب من موقع الروّاد للصيانة - rwadcool';
+            window.RwadCool.sendWhatsAppMessage('+966574467922', message);
+        }
+        
+        function showSuccessDemo() {
+            window.RwadCool.showSuccessMessage('demoSuccessMessage');
+        }
+        
+        // إضافة تأثيرات للكروت عند التحميل
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    card.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 100);
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>
