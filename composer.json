@@ -1,0 +1,14 @@
+{
+  "name": "rwadcool/website",
+  "description": "الروّاد للصيانة | rwadcool website backend",
+  "type": "project",
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.29"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.1.0"
+    }
+  }
+}
