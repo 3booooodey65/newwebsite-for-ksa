@@ -1,0 +1,39 @@
+/* Theme variables */
+:root{
+  --color-primary:#4949FF;
+  --color-secondary:#7879FF;
+  --color-accent:#A3A3FF;
+  --color-bg:#BFBFFF;
+}
+
+html,body{
+  font-family:'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background: var(--color-bg);
+  color:#111;
+}
+
+.top-bar{ background: var(--color-secondary); }
+.bg-primary-600{ background: var(--color-primary)!important; }
+.navbar .nav-link{ color:#fff; }
+.navbar .nav-link.active, .navbar .nav-link:hover{ color:#fff; text-decoration:underline; text-underline-offset:4px; }
+.btn-cta{
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  color:#fff; border:0; padding:.6rem 1.1rem; border-radius:.6rem;
+}
+.btn-cta:hover{ opacity:.95; color:#fff; }
+
+.hero{
+  min-height: 55vh;
+  background: linear-gradient(120deg, var(--color-primary) 0%, var(--color-secondary) 60%, var(--color-accent) 100%);
+}
+
+.card{ border:0; }
+
+/* Forms */
+.form-control:focus, .form-select:focus{ box-shadow:0 0 0 .25rem rgba(73,73,255,.15); border-color: var(--color-primary); }
+
+/* Utilities */
+.shadow-sm{ box-shadow: 0 4px 10px rgba(0,0,0,.06)!important; }
+
+/* Footer */
+footer{ background: rgba(255,255,255,.6); }
